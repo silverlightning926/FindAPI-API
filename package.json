@@ -10,7 +10,8 @@
   "author": "Sidd Rao",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
