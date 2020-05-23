@@ -17,10 +17,8 @@ Endpoint `/all` :
 Endpoint `/category/~categoryName~`:
   - Returned API in a category
   
-  ` 
   Current Categories : 
       - Animals | Endpoint - /category/animals
       - Anti-Malware | Endpoint - /category/anti-malware
       - Art & Design | Endpoint - /category/art-design
       - Books | Endpoint - /category/books
-`
