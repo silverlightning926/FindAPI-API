@@ -22,3 +22,5 @@ Current Categories :
   - Anti-Malware 💻 | Endpoint - /category/anti-malware
   - Art & Design 🎨 | Endpoint - /category/art-design
   - Books | Endpoint 📚 - /category/books
+  - Business | Endpoint 💼 - /category/business
+  - Calendar | Endpoint 📅 - /category/calendar
