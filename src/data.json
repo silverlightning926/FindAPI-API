@@ -1,306 +1,397 @@
 {
-    "animals" : [
-        {
-            "name" : "Cat Facts",
-            "description" : "Daily cat facts",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : false,
-            "link" : "https://alexwohlbruck.github.io/cat-facts/"
-        },
-    
-        {
-            "name" : "Cats",
-            "description" : "Pictures of cats from Tumblr",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://docs.thecatapi.com/"
-        },
-    
-        {
-            "name" : "Dogs",
-            "description" : "Based on the Stanford Dogs Dataset",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "https://dog.ceo/dog-api/"
-        },
-    
-        {
-            "name" : "HTTPCat",
-            "description" : "Cat for every HTTP Status",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://http.cat/"
-        },
-    
-        {
-            "name" : "IUCN",
-            "description" : "IUCN Red List of Threatened Species",
-            "auth": "apiKey",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "http://apiv3.iucnredlist.org/api/v3/docs"
-        },
+	"animals": [
+		{
+			"name": "Cat Facts",
+			"description": "Daily cat facts",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": false,
+			"link": "https://alexwohlbruck.github.io/cat-facts/"
+		},
 
-        {
-            "name" : "Movebank",
-            "description" : "Movement and Migration data of animals",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://github.com/movebank/movebank-api-doc"
-        },
+		{
+			"name": "Cats",
+			"description": "Pictures of cats from Tumblr",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://docs.thecatapi.com/"
+		},
 
-        {
-            "name" : "Petfinder",
-            "description" : "Adoption",
-            "auth": "OAuth",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "https://www.petfinder.com/developers/v2/docs/"
-        },
+		{
+			"name": "Dogs",
+			"description": "Based on the Stanford Dogs Dataset",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://dog.ceo/dog-api/"
+		},
 
-        {
-            "name" : "PlaceGOAT",
-            "description" : "Placeholder goat images",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://placegoat.com/"
-        },
-        
-        {
-            "name" : "RandomCat",
-            "description" : "Random pictures of cats",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "https://aws.random.cat/meow"
-        },
+		{
+			"name": "HTTPCat",
+			"description": "Cat for every HTTP Status",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://http.cat/"
+		},
 
-        {
-            "name" : "RandomDog",
-            "description" : "Random pictures of dogs",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "https://random.dog/woof.json"
-        },
+		{
+			"name": "IUCN",
+			"description": "IUCN Red List of Threatened Species",
+			"auth": "apiKey",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://apiv3.iucnredlist.org/api/v3/docs"
+		},
 
-        {
-            "name" : "RandomFox",
-            "description" : "Random pictures of foxes",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : false,
-            "link" : "https://randomfox.ca/floof/"
-        },
+		{
+			"name": "Movebank",
+			"description": "Movement and Migration data of animals",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://github.com/movebank/movebank-api-doc"
+		},
 
-        {
-            "name" : "RescueGroups",
-            "description" : "Adoptions",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "https://randomfox.ca/floof/"
-        },
+		{
+			"name": "Petfinder",
+			"description": "Adoption",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://www.petfinder.com/developers/v2/docs/"
+		},
 
-        {
-            "name" : "Shibe.Online",
-            "description" : "Random pictures of Shibu Inu, cats or birds",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : true,
-            "link" : "http://shibe.online/"
-        }
-    ],
+		{
+			"name": "PlaceGOAT",
+			"description": "Placeholder goat images",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://placegoat.com/"
+		},
 
-    "anti-malware" : [
-        {
-            "name" : "AbuseIPDB",
-            "description" : "IP/domain/URL reputation",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://docs.abuseipdb.com/"
-        },
+		{
+			"name": "RandomCat",
+			"description": "Random pictures of cats",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://aws.random.cat/meow"
+		},
 
-        {
-            "name" : "AlienVault Open Threat Exchange (OTX)",
-            "description" : "IP/domain/URL reputation",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://otx.alienvault.com/api/"
-        },
+		{
+			"name": "RandomDog",
+			"description": "Random pictures of dogs",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://random.dog/woof.json"
+		},
 
-        {
-            "name" : "Google Safe Browsing",
-            "description" : "Google Link/Domain Flagging",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://developers.google.com/safe-browsing/"
-        },
+		{
+			"name": "RandomFox",
+			"description": "Random pictures of foxes",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": false,
+			"link": "https://randomfox.ca/floof/"
+		},
 
-        {
-            "name" : "Metacert",
-            "description" : "Metacert Link Flagging",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://metacert.com/"
-        },
+		{
+			"name": "RescueGroups",
+			"description": "Adoptions",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://randomfox.ca/floof/"
+		},
 
-        {
-            "name" : "VirusTotal",
-            "description" : "VirusTotal File/URL Analysis",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.virustotal.com/en/documentation/public-api/"
-        },
+		{
+			"name": "Shibe.Online",
+			"description": "Random pictures of Shibu Inu, cats or birds",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "http://shibe.online/"
+		}
+	],
 
-        {
-            "name" : "Web Of Trust (WOT)",
-            "description" : "Website reputation",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.mywot.com/en/API"
-        }
-    ],
+	"anti-malware": [
+		{
+			"name": "AbuseIPDB",
+			"description": "IP/domain/URL reputation",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://docs.abuseipdb.com/"
+		},
 
-    "art-design": [
-        {
-            "name" : "Behance",
-            "description" : "Design",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.behance.net/dev"
-        },
+		{
+			"name": "AlienVault Open Threat Exchange (OTX)",
+			"description": "IP/domain/URL reputation",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://otx.alienvault.com/api/"
+		},
 
-        {
-            "name" : "Cooper Hewitt",
-            "description" : "Smithsonian Design Museum",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://collection.cooperhewitt.org/api"
-        },
+		{
+			"name": "Google Safe Browsing",
+			"description": "Google Link/Domain Flagging",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.google.com/safe-browsing/"
+		},
 
-        {
-            "name" : "Dribbble",
-            "description" : "Design",
-            "auth": "OAuth",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "http://developer.dribbble.com/v2/"
-        },
+		{
+			"name": "Metacert",
+			"description": "Metacert Link Flagging",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://metacert.com/"
+		},
 
-        {
-            "name" : "Harvard Art Museums",
-            "description" : "Art",
-            "auth": "OAuth",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "https://github.com/harvardartmuseums/api-docs"
-        },
+		{
+			"name": "VirusTotal",
+			"description": "VirusTotal File/URL Analysis",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.virustotal.com/en/documentation/public-api/"
+		},
 
-        {
-            "name" : "Iconfinder",
-            "description" : "Icons",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://developer.iconfinder.com/"
-        },
+		{
+			"name": "Web Of Trust (WOT)",
+			"description": "Website reputation",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.mywot.com/en/API"
+		}
+	],
 
-        {
-            "name" : "Icons8",
-            "description" : "Icons",
-            "auth": "OAuth",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "http://docs.icons8.apiary.io/#reference/0/meta"
-        },
+	"art-design": [
+		{
+			"name": "Behance",
+			"description": "Design",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.behance.net/dev"
+		},
 
-        {
-            "name" : "Noun Project",
-            "description" : "Icons",
-            "auth": "OAuth",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "http://api.thenounproject.com/index.html"
-        },
+		{
+			"name": "Cooper Hewitt",
+			"description": "Smithsonian Design Museum",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://collection.cooperhewitt.org/api"
+		},
 
-        {
-            "name" : "Rijksmuseum",
-            "description" : "Art",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.rijksmuseum.nl/en/api"
-        }
-    ],
+		{
+			"name": "Dribbble",
+			"description": "Design",
+			"auth": "OAuth",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://developer.dribbble.com/v2/"
+		},
 
-    "books" : [
-        {
-            "name" : "British National Bibliography",
-            "description" : "Books",
-            "auth": "none",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "http://bnb.data.bl.uk/"
-        },
+		{
+			"name": "Harvard Art Museums",
+			"description": "Art",
+			"auth": "OAuth",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "https://github.com/harvardartmuseums/api-docs"
+		},
 
-        {
-            "name" : "Goodreads",
-            "description" : "Books",
-            "auth": "apiKey",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.goodreads.com/api"
-        },
+		{
+			"name": "Iconfinder",
+			"description": "Icons",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developer.iconfinder.com/"
+		},
 
-        {
-            "name" : "Google Books",
-            "description" : "Books",
-            "auth": "OAuth",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://www.goodreads.com/api"
-        },
+		{
+			"name": "Icons8",
+			"description": "Icons",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "http://docs.icons8.apiary.io/#reference/0/meta"
+		},
 
-        {
-            "name" : "LibGen",
-            "description" : "Library Genesis search engine",
-            "auth": "none",
-            "HTTPS" : false,
-            "CORS" : null,
-            "link" : "http://garbage.world/posts/libgen/"
-        },
+		{
+			"name": "Noun Project",
+			"description": "Icons",
+			"auth": "OAuth",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://api.thenounproject.com/index.html"
+		},
 
-        {
-            "name" : "Open Library",
-            "description" : "Books, book covers and related data",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "https://openlibrary.org/developers/api"
-        },
-        
-        {
-            "name" : "Penguin Publishing",
-            "description" : "Books, book covers and related data",
-            "auth": "none",
-            "HTTPS" : true,
-            "CORS" : null,
-            "link" : "http://www.penguinrandomhouse.biz/webservices/rest/"
-        }
-    ]
-}   
+		{
+			"name": "Rijksmuseum",
+			"description": "Art",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.rijksmuseum.nl/en/api"
+		}
+	],
+
+	"books": [
+		{
+			"name": "British National Bibliography",
+			"description": "Books",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://bnb.data.bl.uk/"
+		},
+
+		{
+			"name": "Goodreads",
+			"description": "Books",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.goodreads.com/api"
+		},
+
+		{
+			"name": "Google Books",
+			"description": "Books",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.goodreads.com/api"
+		},
+
+		{
+			"name": "LibGen",
+			"description": "Library Genesis search engine",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://garbage.world/posts/libgen/"
+		},
+
+		{
+			"name": "Open Library",
+			"description": "Books, book covers and related data",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://openlibrary.org/developers/api"
+		},
+
+		{
+			"name": "Penguin Publishing",
+			"description": "Books, book covers and related data",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "http://www.penguinrandomhouse.biz/webservices/rest/"
+		}
+	],
+
+	"business": [
+		{
+			"name": "Charity Search",
+			"description": "Non-profit charity data",
+			"auth": "apiKey",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://charityapi.orghunter.com/"
+		},
+		{
+			"name": "Clearbit Logo",
+			"description": "Search for company logos and embed them in your projects",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://clearbit.com/docs#logo-api"
+		},
+		{
+			"name": "Domainsdb.info",
+			"description": "Registered Domain Names Search",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://domainsdb.info/"
+		},
+		{
+			"name": "Freelancer",
+			"description": "Hire freelancers to get work done",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.freelancer.com/"
+		},
+		{
+			"name": "Gmail",
+			"description": "Flexible, RESTful access to the user's inbox",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.google.com/gmail/api/"
+		},
+		{
+			"name": "Google Analytics",
+			"description": "Collect, configure and analyze your data to reach the right audience",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.google.com/analytics/"
+		},
+		{
+			"name": "MailboxValidator",
+			"description": "Validate email address to improve deliverability",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.mailboxvalidator.com/api-single-validation"
+		},
+		{
+			"name": "mailgun",
+			"description": "Email Service",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://www.mailgun.com/"
+		},
+		{
+			"name": "markerapi",
+			"description": "Trademark Search",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "http://www.markerapi.com/"
+		},
+		{
+			"name": "Ticksel",
+			"description": "Friendly website analytics made for humans",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://ticksel.com/"
+		},
+		{
+			"name": "Trello",
+			"description": "Boards, lists and cards to help you organize and prioritize your projects",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.trello.com/"
+		}
+	]
+}
