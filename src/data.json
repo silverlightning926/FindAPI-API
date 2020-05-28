@@ -393,5 +393,96 @@
 			"CORS": null,
 			"link": "https://developers.trello.com/"
 		}
+	],
+
+	"calendar": [
+		{
+			"name": "Calendar Index",
+			"description": "Worldwide Holidays and Working Days",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://www.calendarindex.com/"
+		},
+		{
+			"name": "Church Calendar",
+			"description": "Catholic liturgical calendar",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://calapi.inadiutorium.cz/"
+		},
+		{
+			"name": "Czech Namedays Calendar",
+			"description": "Lookup for a name and returns nameday date",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://svatky.adresa.info/"
+		},
+		{
+			"name": "Google Calendar",
+			"description": "Display, create and modify Google calendar events",
+			"auth": "OAuth",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://developers.google.com/google-apps/calendar/"
+		},
+		{
+			"name": "Hebrew Calendar",
+			"description": "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "https://www.hebcal.com/home/developer-apis"
+		},
+		{
+			"name": "Holidays",
+			"description": "Historical data regarding holidays",
+			"auth": "apiKey",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://holidayapi.com/"
+		},
+		{
+			"name": "LectServe",
+			"description": "Protestant liturgical calendar",
+			"auth": "none",
+			"HTTPS": false,
+			"CORS": null,
+			"link": "http://www.lectserve.com/"
+		},
+		{
+			"name": "Nager.Date",
+			"description": "Public holidays for more than 90 countries",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": false,
+			"link": "https://date.nager.at/"
+		},
+		{
+			"name": "Namedays Calendar",
+			"description": "Provides namedays for multiple countries",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": true,
+			"link": "https://api.abalin.net/"
+		},
+		{
+			"name": "Non-Working Days",
+			"description": "Database of ICS files for non working days",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": null,
+			"link": "https://github.com/gadael/icsdb"
+		},
+		{
+			"name": "Russian Calendar",
+			"description": "Check if a date is a Russian holiday or not",
+			"auth": "none",
+			"HTTPS": true,
+			"CORS": false,
+			"link": "https://github.com/egno/work-calendar"
+		}
 	]
 }
